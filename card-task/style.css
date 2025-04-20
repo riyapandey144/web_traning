@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .background {
+    background-color: #e8d05a;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+  }
+  
+  .card {
+    background-color: rgb(231, 217, 217);
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 6px 6px 0px black;
+    overflow: hidden;
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+    height: 55vh;
+    margin-left: 5px;
+    border: 1px solid;
+    
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .card-body .tag {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .card-body .date {
+    font-size: 12px;
+    margin: 6px 0;
+    color: #555;
+  }
+  
+  .card-body h2 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+    font-weight: 800;
+  }
+  
+  .card-body .description {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .author p {
+    font-size: 13px;
+    font-weight: bold;
+  }
